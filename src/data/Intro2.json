@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "title": { "first": "We Are Creative", "second": "Cutting-Edge Software Solution" },
+    "content": {
+      "first": "We offer Software Development & Enterprise Mobile Apps Development",
+      "second": "utilizing technology."
+    },
+    "image": "/assets/img/slid/n/02.jpg"
+  }
+]
