@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/img/c1.jpg",
+      "title": "KWOT",
+      "desc": "KWOT - Empowering African Commerce",
+      "by": "Octopus Technologies"
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/c2.jpg",
+      "title": "Cloud5 Communications",
+      "desc": "Cloud5 Communications stands as a leading provider of hospitality communications services, redefining the way hotels and resorts engage with their guests",
+      "by": "Octopus Technologies"
+    },
+    {
+        "id": 3,
+        "image": "/assets/img/c3.jpeg",
+        "title": "Restrocrm: An innovative restaurant admin platform",
+        "desc": "Restrocrm, an innovative restaurant admin platform, is meticulously designed within the React framework and powered by JavaScript to revolutionize restaurant operations.",
+        "by": "Octopus Technologies"
+      }
+  ]
+  

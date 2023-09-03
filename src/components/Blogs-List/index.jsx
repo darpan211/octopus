@@ -18,67 +18,50 @@ const BlogsList = () => {
             <div className="col-lg-10 offset-lg-1">
               <div className="posts">
                 {Blog1Data.map((item) => (
-                  <div className="item mb-80" key={item.id}>
+                  <div className="item mb-80" key={item?.id}>
                     <div className="img">
-                      <Link href="/blog-details">
-                        <a>
+                      {/* <Link href="/blog-details"> */}
+                        {/* <a> */}
                           <img
-                            src={item.image}
+                            src={item?.image}
                             alt=""
                             className="thumparallax"
                           />
-                        </a>
-                      </Link>
+                        {/* </a> */}
+                      {/* </Link> */}
                     </div>
                     <div className="content">
                       <div className="date">
                         <h5>
-                          <Link href="/blog-details">
-                            <a>
-                              <span className="num">{item.date2[1]}</span>
-                              <span>{item.date2[0]}</span>
-                            </a>
-                          </Link>
+                          {/* <Link href="/blog-details"> */}
+                            {/* <a> */}
+                              <span className="num">{item?.date2[1]}</span>
+                              <span>{item?.date2[0]}</span>
+                            {/* </a> */}
+                          {/* </Link> */}
                         </h5>
                       </div>
                       <div className="cont">
-                        <div className="tags">
+                        {/* <div className="tags">
                           <Link href="#">WordPress</Link>
                           <Link href="#">Themeforest</Link>
                           <Link href="#">Archo</Link>
-                        </div>
+                        </div> */}
                         <h4 className="title">
-                          <Link href="/blog-details">
-                            Build a Beautiful Blog With Ease
-                          </Link>
+                          {/* <Link href="/blog-details"> */}
+                            {item?.title}
+                          {/* </Link> */}
                         </h4>
                         <p>
-                          Success is no accident. It is hard work, perseverance,
-                          learning, studying, sacrifice and most of all, love of
-                          what you are doing.
+                        {item?.desc}
                         </p>
-                        <Link href="/blog-details">
+                        <Link href={`/blog-details/${item?.id}`}>
                           <a className="more">Read More</a>
                         </Link>
                       </div>
                     </div>
                   </div>
                 ))}
-                <div className="pagination">
-                  <span className="active">
-                    <Link href="#">1</Link>
-                  </span>
-                  <span>
-                    <Link href="#">2</Link>
-                  </span>
-                  <span>
-                    <Link href="#">
-                      <a>
-                        <i className="fas fa-angle-right"></i>
-                      </a>
-                    </Link>
-                  </span>
-                </div>
               </div>
             </div>
           </div>

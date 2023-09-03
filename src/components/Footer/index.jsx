@@ -31,7 +31,7 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+91 85113 73087 | +91 97234 92567</p>
+                    <p>+91 93286 62882</p>
                   </div>
                 </li>
               </ul>
@@ -45,51 +45,42 @@ const Footer = ({ classText }) => {
               <ul>
                 <li>
                   <div className="img">
-                    <Link href="/blog-details">
+                    <Link href="/details/2">
                       <a>
-                        <img src="/assets/img/blog/1.jpg" alt="" />
+                        <img src="/assets/img/c1.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
-
                   <div className="sm-post">
-                    <Link href="/blog-details">
+                    <Link href="/details/2">
                       <a>
                         <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
+                        Cloud5 Communications
                         </p>
                       </a>
                     </Link>
-                    <span className="date">14 Jan 2022</span>
+                    <span className="date">08 Aug 2022</span>
                   </div>
                 </li>
                 <li>
                   <div className="img">
-                    <Link href="/blog-details">
+                    <Link href="/details/1">
                       <a>
-                        <img src="/assets/img/blog/2.jpg" alt="" />
+                        <img src="/assets/img/c2.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
                   <div className="sm-post">
-                    <Link href="/blog-details">
+                    <Link href="/details/1">
                       <a>
                         <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
+                        KWOT - Empowering African Commerce
                         </p>
                       </a>
                     </Link>
                     <span className="date">14 Jan 2022</span>
                   </div>
                 </li>
-                {/* <li>
-                  <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane"></span>
-                  </div>
-                </li> */}
               </ul>
             </div>
           </div>

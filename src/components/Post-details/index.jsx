@@ -119,7 +119,7 @@ const PostDetails = () => {
                           But you can plan for big picture seasonality,
                           busy-times, and events.
                         </p>
-                        <div className="share-info">
+                        {/* <div className="share-info">
                           <div className="social">
                             <Link href="#">
                               <a>
@@ -142,9 +142,9 @@ const PostDetails = () => {
                             <Link href="#">Themeforest</Link>,
                             <Link href="#">ThemesCamp</Link>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
-                      <div className="author">
+                      {/* <div className="author">
                         <div className="author-img">
                           <img src="/assets/img/blog/01.jpg" alt="" />
                         </div>
@@ -169,126 +169,8 @@ const PostDetails = () => {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
-                  </div>
-                </div>
-
-                <div className="pagination">
-                  <span>
-                    <Link href="#">Prev Post</Link>
-                  </span>
-                  <span className="icon">
-                    <Link href="#">
-                      <a>
-                        <i className="fas fa-th-large"></i>
-                      </a>
-                    </Link>
-                  </span>
-                  <span className="text-right">
-                    <Link href="#">Next Post</Link>
-                  </span>
-                </div>
-
-                <div className="comments-area">
-                  <h5>Comments :</h5>
-                  <div className="item">
-                    <div className="comment-img">
-                      <img src="/assets/img/blog/01.jpg" alt="" />
-                    </div>
-                    <div className="info">
-                      <h6>
-                        Jorden Griffin<span> 6 Aug 2022</span>
-                      </h6>
-                      <span className="replay">
-                        <Link href="#">
-                          <a>
-                            Replay <i className="fas fa-reply"></i>
-                          </a>
-                        </Link>
-                      </span>
-                      <p>
-                        the main component of a healthy environment for self
-                        esteem is that it needs be nurturing. The main compont
-                        of a healthy environment.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="item relped">
-                    <div className="comment-img">
-                      <img src="/assets/img/blog/01.jpg" alt="" />
-                    </div>
-                    <div className="info">
-                      <h6>
-                        Jorden Griffin<span> 6 Aug 2022</span>
-                      </h6>
-                      <span className="replay">
-                        <Link href="#">
-                          <a>
-                            Replay <i className="fas fa-reply"></i>
-                          </a>
-                        </Link>
-                      </span>
-                      <p>
-                        the main component of a healthy environment for self
-                        esteem is that it needs be nurturing. The main compont
-                        of a healthy environment.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="item">
-                    <div className="comment-img">
-                      <img src="/assets/img/blog/01.jpg" alt="" />
-                    </div>
-                    <div className="info">
-                      <h6>
-                        Jorden Griffin<span> 6 Aug 2022</span>
-                      </h6>
-                      <span className="replay">
-                        <Link href="#">
-                          <a>
-                            Replay <i className="fas fa-reply"></i>
-                          </a>
-                        </Link>
-                      </span>
-                      <p>
-                        the main component of a healthy environment for self
-                        esteem is that it needs be nurturing. The main compont
-                        of a healthy environment.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="comment-form">
-                  <h5>Add Comment :</h5>
-                  <div className="form">
-                    <form action="">
-                      <div className="row">
-                        <div className="col-12">
-                          <div className="form-group">
-                            <textarea placeholder="Your Comment"></textarea>
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="form-group">
-                            <input type="text" placeholder="Your Name" />
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="form-group">
-                            <input type="email" placeholder="Your Email" />
-                          </div>
-                        </div>
-                        <div className="col-12">
-                          <div className="form-group">
-                            <button className="btn-curve btn-blc btn-lg">
-                              <span>Submit</span>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
                   </div>
                 </div>
               </div>

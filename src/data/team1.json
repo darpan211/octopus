@@ -1,52 +1,32 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/team/1.jpg",
+    "image": "/assets/img/ig1.jpeg",
     "facebook": "#",
     "twitter": "#",
     "behance": "#",
     "linkedin": "#",
-    "username": "Hasib sharif",
-    "usertitle": "General Manager"
+    "username": "Kishan Patel",
+    "usertitle": "CEO & CTO"
   },
   {
     "id": 2,
-    "image": "/assets/img/team/2.jpg",
+    "image": "/assets/img/ig2.jpeg",
     "facebook": "#",
     "twitter": "#",
     "behance": "#",
     "linkedin": "#",
-    "username": "Jonson Leo",
-    "usertitle": "Founder"
+    "username": "Parth Patel",
+    "usertitle": "CFO & COO"
   },
   {
     "id": 3,
-    "image": "/assets/img/team/3.jpg",
+    "image": "/assets/img/ig3.jpeg",
     "facebook": "#",
     "twitter": "#",
     "behance": "#",
     "linkedin": "#",
-    "username": "Leio Man",
-    "usertitle": "Founder"
-  },
-  {
-    "id": 4,
-    "image": "/assets/img/team/4.jpg",
-    "facebook": "#",
-    "twitter": "#",
-    "behance": "#",
-    "linkedin": "#",
-    "username": "Robert Front",
-    "usertitle": "CEO Founder"
-  },
-  {
-    "id": 5,
-    "image": "/assets/img/team/5.jpg",
-    "facebook": "#",
-    "twitter": "#",
-    "behance": "#",
-    "linkedin": "#",
-    "username": "Matt Huk",
-    "usertitle": "3D Visualization"
+    "username": "Vasu Mehra",
+    "usertitle": "CMO"
   }
 ]

@@ -3,6 +3,7 @@ import PageHeader from "../../components/Page-header";
 import ContactInfo from "../../components/Contact-info";
 import ContactWithMap from "../../components/Contact-with-map";
 import MainLayout from "../../layouts/main";
+import LightLayout from "../../layouts/light";
 
 const Contact = () => {
    React.useEffect(() => {
@@ -16,7 +17,7 @@ const Contact = () => {
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "contact us", url: "/contact" },
         ]}
-        image="/assets/img/pg2.jpg"
+        image="/assets/img/pg222.jpg"
       />
       <section className="contact">
         <ContactInfo />

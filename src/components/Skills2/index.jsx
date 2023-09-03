@@ -1,55 +1,74 @@
-import React from 'react'
-import skillsProgress from '../../common/skillsProgress';
+import React from "react";
+import Image from "next/image";
+
 const Skills2 = () => {
-  React.useEffect(() => {
-    skillsProgress()
-  }, [])
-    return (
-      <div className="skills-sec section-padding pt-80">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 valign">
-              <div className="skills-box full-width">
-                <div className="skill-item">
-                  <h6>Architecture</h6>
-                  <div className="skill-progress">
-                    <div className="progres custom-font" data-value="90%"></div>
-                  </div>
-                </div>
-                <div className="skill-item">
-                  <h6>Interior Design</h6>
-                  <div className="skill-progress">
-                    <div className="progres custom-font" data-value="75%"></div>
-                  </div>
-                </div>
-                <div className="skill-item">
-                  <h6>3D Modeling</h6>
-                  <div className="skill-progress">
-                    <div className="progres custom-font" data-value="80%"></div>
-                  </div>
-                </div>
-              </div>
+  return (
+    <div className="skills-sec section-padding pt-80">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 valign">
+            <div className="skills-box full-width">
+              <Image
+                fill={true}
+                priority={true}
+                src="/assets/img/vision.jpg"
+                alt="bg"
+                width={"500"}
+                height={"300"}
+              />
             </div>
-            <div className="col-lg-6">
-              <div className="content">
-                <h4 className="playfont line-height-50 mb-20">
-                  Providing Customized Design Solutions That Fits Every Space .
-                </h4>
-                <p className="mb-10">
-                  Beyond more stoic this along goodness hey this this wow ipsum
-                  manate far impressive manifest farcrud opened inside.
-                </p>
-                <p>
-                  Fustered impressive manifest crud opened inside owing
-                  punitively around forewent and after wasteful telling sprang
-                  coldly and spoke less clients.
-                </p>
-              </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="content">
+              <h4 className="playfont line-height-50 mb-20">Our Vision</h4>
+              <p className="mb-10">
+                Our vision is simple yet ambitious: to create exceptional web
+                experiences that captivate, engage, and empower businesses and
+                individuals alike. In an ever-evolving digital landscape, we
+                strive to be at the forefront of innovation, delivering
+                tailor-made solutions that leave a lasting impact.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    );
-}
+    </div>
+  );
+};
 
-export default Skills2
+export default Skills2;
+
+export const Skills3 = () => {
+  return (
+    <div className="skills-sec section-padding pt-80">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6">
+            <div className="content">
+              <h4 className="playfont line-height-50 mb-20">Our Expertise</h4>
+              <p className="mb-10">
+                We specialize in harnessing the power of the latest technologies
+                to build dynamic and user-friendly web applications. With a core
+                focus on React.js, Node.js, and other leading-edge tools, we
+                craft solutions that are not just visually stunning but also
+                robust, scalable, and future-ready.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 valign">
+            <div className="skills-box full-width">
+              <Image
+                fill={true}
+                priority={true}
+                src="/assets/img/expertise.jpg"
+                alt="bg"
+                width={"500"}
+                height={"300"}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

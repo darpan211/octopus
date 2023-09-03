@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Blog1Data from "../../data/blogs1.json";
+import Blog1Data from "../../data/blog1.json";
 import Link from "next/link";
 
 const Blogs2 = () => {
@@ -33,15 +33,15 @@ const Blogs2 = () => {
                 </div>
                 <div className="cont">
                   <div className="info">
-                    <Link href="/blog-details">{blog.by}</Link>
-                    <Link href="/blog-details">{blog.date}</Link>
+                    <Link href={`/blog-details/${blog?.id}`}>{blog.by}</Link>
+                    <Link href={`/blog-details/${blog?.id}`}>{blog.date}</Link>
                   </div>
 
                   <h5 className="playfont">
-                    <Link href="/blog-details">{blog.title}</Link>
+                    <Link href={`/blog-details/${blog?.id}`}>{blog.title}</Link>
                   </h5>
 
-                  <Link href="/blog-details">
+                  <Link href={`/blog-details/${blog?.id}`}>
                     <a className="more">
                       <span className="custom-font">Read More</span>
                     </a>

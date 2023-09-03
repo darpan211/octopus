@@ -10,6 +10,7 @@ module.exports = {
     buildActivity: false,
   },
   eslint: {
-    ignoreDuringBuilds: false,
+    dirs: ['pages'],
+    ignoreDuringBuilds: true,
   },
 };

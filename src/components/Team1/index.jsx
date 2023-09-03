@@ -13,10 +13,10 @@ class Team1 extends React.Component {
     return (
       <div className="navs mt-30 wow fadeInUp" data-wow-delay=".3s">
         <span className="prev" onClick={() => this.slider.slickPrev()}>
-          <i className="fas fa-long-arrow-alt-left"></i>
+          <i className="fas fa-long-arrow-alt-left" />
         </span>
         <span className="next" onClick={() => this.slider.slickNext()}>
-          <i className="fas fa-long-arrow-alt-right"></i>
+          <i className="fas fa-long-arrow-alt-right" />
         </span>
       </div>
     );
@@ -28,27 +28,21 @@ class Team1 extends React.Component {
           <div className="row">
             <div className="col-lg-5">
               <div className="tit">
-                <h6
-                  className="mb-10 wow fadeInDown"
-                  data-wow-delay=".3s"
-                >
-                </h6>
+                <h6 className="mb-10 wow fadeInDown" data-wow-delay=".3s" />
                 <h3 className="playfont wow flipInX" data-wow-delay=".5s">
-                  Our Employees
+                  Our Team
                 </h3>
                 <p className="wow fadeInUp" data-wow-delay=".3s">
-                  We feel proud for our expert team members beatae ipsum dolor
-                  sit amet, consectetur adipisicing elit mauris vitae consequat
-                  nibh, vitae interdum mi.
+                They work collaboratively to lead the company, manage operations, drive technology innovation, ensure financial health, market the company&apos;s services, maintain quality and security standards, and develop and nurture talent. Together, they steer the company toward its goals, growth, and long-term success in the dynamic IT services industry.
                 </p>
-                {this.renderArrows()}
+                {/* {this.renderArrows()} */}
               </div>
             </div>
             <div className="col-lg-7">
               <Slider
                 className="team-container"
                 {...{
-                  ref: (c) => (this.slider = c),
+                  ref: c => (this.slider = c),
                   slidesToShow: 3,
                   slidesToScroll: 1,
                   arrows: true,
@@ -58,25 +52,25 @@ class Team1 extends React.Component {
                     {
                       breakpoint: 1024,
                       settings: {
-                        slidesToShow: 3,
-                      },
+                        slidesToShow: 3
+                      }
                     },
                     {
                       breakpoint: 767,
                       settings: {
-                        slidesToShow: 2,
-                      },
+                        slidesToShow: 2
+                      }
                     },
                     {
                       breakpoint: 480,
                       settings: {
-                        slidesToShow: 1,
-                      },
-                    },
-                  ],
+                        slidesToShow: 1
+                      }
+                    }
+                  ]
                 }}
               >
-                {Team1Data.map((item) => (
+                {Team1Data.map(item =>
                   <div
                     className="item wow fadeInUp"
                     data-wow-delay=".3s"
@@ -86,25 +80,29 @@ class Team1 extends React.Component {
                       <img src={item.image} alt="" />
                       <div className="social">
                         <a href={item.facebook}>
-                          <i className="fab fa-facebook-f"></i>
+                          <i className="fab fa-facebook-f" />
                         </a>
                         <a href={item.twitter}>
-                          <i className="fab fa-twitter"></i>
+                          <i className="fab fa-twitter" />
                         </a>
                         <a href={item.behance}>
-                          <i className="fab fa-behance"></i>
+                          <i className="fab fa-behance" />
                         </a>
                         <a href={item.linkedin}>
-                          <i className="fab fa-linkedin-in"></i>
+                          <i className="fab fa-linkedin-in" />
                         </a>
                       </div>
                     </div>
                     <div className="info">
-                      <h5>{item.username}</h5>
-                      <span>{item.usertitle}</span>
+                      <h5>
+                        {item.username}
+                      </h5>
+                      <span>
+                        {item.usertitle}
+                      </span>
                     </div>
                   </div>
-                ))}
+                )}
               </Slider>
             </div>
           </div>
@@ -112,7 +110,7 @@ class Team1 extends React.Component {
         <div
           className="dots-half bg-img bg-repeat"
           style={{ backgroundImage: "url(/assets/img/dots.png" }}
-        ></div>
+        />
       </section>
     );
   }

@@ -11,7 +11,7 @@ const AboutUs4 = () => {
                 <div className="col-sm-6">
                   <div className="item mb-50">
                     <h3>
-                      <span className="nbr custom-font">352</span>
+                      <span className="nbr custom-font">15+</span>
                     </h3>
                     <h6>Projects Completed</h6>
                   </div>
@@ -19,7 +19,7 @@ const AboutUs4 = () => {
                 <div className="col-sm-6">
                   <div className="item mb-50">
                     <h3>
-                      <span className="nbr custom-font">567</span>
+                      <span className="nbr custom-font">12+</span>
                     </h3>
                     <h6>Satisfied Clients</h6>
                   </div>
@@ -27,37 +27,30 @@ const AboutUs4 = () => {
                 <div className="col-sm-6">
                   <div className="item">
                     <h3>
-                      <span className="nbr custom-font">656</span>
-                      <i>M</i>
+                      <span className="nbr custom-font">22+</span>
+                      {/* <i>M</i> */}
                     </h3>
-                    <h6>Monthly Revenue</h6>
+                    <h6>Team Members</h6>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                {/* <div className="col-sm-6">
                   <div className="item">
                     <h3>
                       <span className="nbr custom-font">17</span>
                     </h3>
                     <h6>Awards Won</h6>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="txt-cont">
               <p className="mb-20">
-                Maecenas imperdiet ante eget hendrerit posuere. Nunc urna
-                libero, congue porta nibh a, semper feugiat sem. Sed auctor dui
-                eleifend, scelerisque eros ut.
+              When you choose <b>Octopus Technologies</b> as your web development partner, you&apos;re choosing a commitment to excellence, innovation, and unwavering support. Whether you&apos;re a startup looking to make a mark or an established business seeking digital transformation, we&apos;re here to help you thrive in the digital age.
               </p>
               <p>
-                Curabitur sed iaculis dolor, non congue ligula. Maecenas
-                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue
-                porta nibh a, semper feugiat sem. Sed auctor dui eleifend,
-                scelerisque eros ut, pellentesque nibh. Nam lacinia suscipit
-                accumsan. Donec sodales, neque vitae rutrum convallis, nulla
-                tortor pharetra odio, in varius ante ante sed nisi.
+              Join us on this exciting journey. Let&apos;s create extraordinary web experiences together.
               </p>
             </div>
           </div>

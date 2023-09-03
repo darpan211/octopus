@@ -1,30 +1,23 @@
 [
     {
         "id": 1,
-        "image": "/assets/img/team/1.jpg",
-        "content": "I just love their design for all stunning details. You must know what can you do for a project before taking it, but with Archo, the sky is the limit.",
-        "username": "Mitchl Jhon",
-        "usertitle": "Envato Customer"
+        "image": "/assets/img/team/66.jpg",
+        "content": "Working with kishan and his team on our web development project using React was an exceptional experience. They delivered a modern, responsive website that exceeded our expectations. Their expertise in React and attention to detail truly set them apart. We're thrilled with the results!, We're really happy!",
+        "username": "Mitchl Warkoo",
+        "usertitle": "KWOT Customer"
     },
     {
       "id": 2,
-      "image": "/assets/img/team/2.jpg",
-      "content": "I just love their design for all stunning details. You must know what can you do for a project before taking it, but with Archo, the sky is the limit.",
-      "username": "Jane Smith",
-      "usertitle": "Envato Customer"
+      "image": "/assets/img/team/66.jpg",
+      "content": "The web development project with React has been a game-changer for our online presence. Octopus techonlogies team demonstrated not only technical prowess but also a deep understanding of our business needs. The webapp they created is user-friendly, visually appealing, and performs flawlessly. Highly recommended!",
+      "username": "Jigar Bavarva",
+      "usertitle": "RestroCRM Customer"
     },
     {
       "id": 3,
-      "image": "/assets/img/team/3.jpg",
-      "content": "I just love their design for all stunning details. You must know what can you do for a project before taking it, but with Archo, the sky is the limit.",
-      "username": "Peter Jefferson",
-      "usertitle": "Envato Customer"
-    },
-    {
-      "id": 4,
-      "image": "/assets/img/team/4.jpg",
-      "content": "I just love their design for all stunning details. You must know what can you do for a project before taking it, but with Archo, the sky is the limit.",
-      "username": "Mitchl Jhon",
-      "usertitle": "Envato Customer"
+      "image": "/assets/img/team/66.jpg",
+      "content": "Choosing Parth's team for our React web development project was the best decision we made. Their dedication to delivering a high-quality product was evident throughout the project. They were responsive to our feedback and ensured that the website was not only beautiful but also efficient. We're extremely satisfied with the outcome",
+      "username": "Ruhin Ghose",
+      "usertitle": "Spark Energy Customer"
     }
 ]
