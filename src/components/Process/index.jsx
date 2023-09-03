@@ -27,7 +27,7 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/01.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/process/01.webp)` }}
               >
                 <h3 className="numb custom-font">01</h3>
               </div>
@@ -44,7 +44,7 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/02.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/process/02.webp)` }}
               >
                 <h3 className="numb custom-font">02</h3>
               </div>
@@ -61,7 +61,7 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/03.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/process/03.webp)` }}
               >
                 <h3 className="numb custom-font">03</h3>
               </div>
@@ -75,7 +75,7 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/04.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/process/04.webp)` }}
               >
                 <h3 className="numb custom-font">04</h3>
               </div>

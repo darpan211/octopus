@@ -16,7 +16,7 @@ const Blogs = () => {
             { id: 1, name: "home", url: "/" },
             { id: 2, name: "case-studies", url: "/case-studies" },
           ]}
-          image="/assets/img/case.jpg"
+          image="/assets/img/case.webp"
         />
         <CaseList />
       </MainLayout>

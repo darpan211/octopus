@@ -22,7 +22,7 @@ const BlogDetails = () => {
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "blogs", url: "/blogs" },
         ]}
-        image="/assets/img/blog.jpg"
+        image="/assets/img/blog/blog.webp"
       />
       <section className="blog-pg single section-padding">
         <div className="container">

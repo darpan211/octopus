@@ -16,7 +16,7 @@ const Work2 = () => {
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "technologies", url: "/technologies" },
         ]}
-        image="/assets/img/technolog.jpg"
+        image="/assets/img/technolog.webp"
       />
       <WorkThreeColumn />
     </MainLayout>

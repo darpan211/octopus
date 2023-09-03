@@ -11,7 +11,7 @@ const Skills2 = () => {
               <Image
                 fill={true}
                 priority={true}
-                src="/assets/img/vision.jpg"
+                src="/assets/img/vision.webp"
                 alt="bg"
                 width={"500"}
                 height={"300"}
@@ -60,7 +60,7 @@ export const Skills3 = () => {
               <Image
                 fill={true}
                 priority={true}
-                src="/assets/img/expertise.jpg"
+                src="/assets/img/expertise.webp"
                 alt="bg"
                 width={"500"}
                 height={"300"}

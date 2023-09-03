@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/blog/bl1.jpg",
+    "image": "/assets/img/blog/bl1.webp",
     "title": "Why choose OCTOPUS TECHNOLOGIES?",
     "desc": "Let's delve deeper into why choosing Octopus Technologies is the right decision for your Full-Stack Development needs",
     "by": "Vasu Mehra",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/blog/bl2.jpg",
+    "image": "/assets/img/blog/bl2.webp",
     "title": "Why REACT?",
     "desc": "In the dynamic landscape of web development, making the right choice between a JavaScript library and a full-fledged framework can significantly impact the success of your projects.",
     "by": "Mohit Patoliya",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/blog/bl3.jpg",
+    "image": "/assets/img/blog/bl3.webp",
     "title": "Full stack dev Microservices",
     "by": "Yash Patel",
     "desc": "Here is a list of Full Stack Development Microservices that Octopus Technologies offer in React Framework",

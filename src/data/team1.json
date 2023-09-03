@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/ig1.jpeg",
+    "image": "/assets/img/ig1.webp",
     "facebook": "#",
     "twitter": "#",
     "behance": "#",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/ig2.jpeg",
+    "image": "/assets/img/ig2.webp",
     "facebook": "#",
     "twitter": "#",
     "behance": "#",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/ig3.jpeg",
+    "image": "/assets/img/ig3.webp",
     "facebook": "#",
     "twitter": "#",
     "behance": "#",

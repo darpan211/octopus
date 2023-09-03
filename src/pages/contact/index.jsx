@@ -17,7 +17,7 @@ const Contact = () => {
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "contact us", url: "/contact" },
         ]}
-        image="/assets/img/pg222.jpg"
+        image="/assets/img/pg222.webp"
       />
       <section className="contact">
         <ContactInfo />
