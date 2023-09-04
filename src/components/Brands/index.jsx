@@ -5,6 +5,11 @@ const Brands = () => {
   return (
     <div className="brands bg-gray">
       <div className="container box-top wow fadeInUp" data-wow-delay=".3s">
+        <div className="row justify-content-center">
+            <h3 className="playfont wow flipInX mb-50" data-wow-delay=".5s">
+             Our Tech Stack
+            </h3>
+        </div>
         <div className="row">
           <div className="col-lg col-md-3 col-sm-6">
             <div className="item">
@@ -23,7 +28,7 @@ const Brands = () => {
           <div className="col-lg col-md-3 col-sm-6">
             <div className="item">
               <div className="img brang-logo">
-                <img src="/assets/img/clients/brands/nodejs.png"  className="brang-logo" alt="nodejs" />
+                <img src="/assets/img/clients/brands/nodejs.png" className="brang-logo" alt="nodejs" />
               </div>
             </div>
           </div>

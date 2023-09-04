@@ -65,13 +65,7 @@ const BlogDetails = () => {
                         </div>
                         <p>
                           the main component of a healthy environment for self
-                          esteem is that it needs be nurturing. The main compont
-                          of a healthy environment for self esteem is that it
-                          needs be nurturing. The main component of a healthy
-                          env for self esteem The main compont be nurturing It
-                          should provide unconditional warmth. The main
-                          component of a healthy env for self esteem The main
-                          compont be nurturing It should provide unconditional
+                          esteem is that it needs be nurturing.
                         </p>
 
                         <h6>- Impact and Vision</h6>
