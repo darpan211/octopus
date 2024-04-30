@@ -20,7 +20,7 @@ const ContactInfo = () => {
               <span className="icon pe-7s-mail-open"></span>
               <div className="cont">
                 <h6 className="custom-font">Email Us</h6>
-                <p>hr@octopustechno.com</p>
+                <p>hroctopustech@gmail.com</p>
               </div>
             </div>
           </div>
