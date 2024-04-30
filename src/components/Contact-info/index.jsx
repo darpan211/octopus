@@ -21,7 +21,6 @@ const ContactInfo = () => {
               <div className="cont">
                 <h6 className="custom-font">Email Us</h6>
                 <p>hr@octopustechno.com</p>
-                <p>career@octopustechno.com</p>
               </div>
             </div>
           </div>
