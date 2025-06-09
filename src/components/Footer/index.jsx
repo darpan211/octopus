@@ -24,14 +24,14 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>hroctopustech@gmail.com</p>
+                    <p>contact@octopustechno.com</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+91 93286 62882</p>
+                    <p>+91 9023640517</p>
                   </div>
                 </li>
               </ul>
